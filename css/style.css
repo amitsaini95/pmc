@@ -1,0 +1,480 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.navbar1 {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 3;
+}
+.dropdown-menu{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color:#fff;
+    border-radius: 5px;
+}
+.carousel-paragraph{
+    font-size:14px;
+    padding:10px 0px 10px 0px;
+    color: #6b6969; 
+}
+.menuitem .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.logo-name{
+    font-size:14px !important;
+    color: #26ae61;
+}
+.content1 h1{
+    color: #333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+.content1 p{
+    color: #9a9a9a;
+    font-size: 14px;
+    line-height: 26px;
+}
+.input-search input{
+    width: 100%;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #26ae61;
+    line-height: 1.5;
+    color: #495057;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.search-button{
+    font-size: 22px;
+    line-height: 14px;
+    display: inline-block;
+    position: relative;
+    outline: none!important;
+    background: #26ae61;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 11px 11px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.search-button i{
+    font-size: 16px;
+}
+
+.categories h3{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #333;
+   
+}
+.categories p{
+    font-size: 14px;
+    color: #6b6969;
+    line-height: 26px;
+  
+}
+.catlogo img{
+    width: 80px;
+}
+.logo{
+    transition: all .3s linear;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+  
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h3{
+    font-size: 18px;
+    color: #333;
+    font-weight:500;
+ 
+}
+
+.categories_card{
+    padding-top: 70px;
+}
+
+.career_oppor{
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+
+
+.careersub{
+    padding-top: 100px; 
+ 
+}
+.careersub h4{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.careersub p{
+ 
+    font-size: 14px;
+    color: #6b6969;
+    line-height: 26px;
+    padding:0px 10px 0px 10px;
+    text-align: center;
+}
+.career-option-btn{
+   
+    text-align: center;
+}
+.career-option-btn button::before{
+    content: '';
+    position: absolute;
+    width: 90%;
+    border-radius: 30px;
+    height: 100%;
+     background: #fff;
+     transform: scale(0);
+     opacity: 0.3;
+     left: 10px;
+     top: 0px;
+     transition: all .3s ease-in-out;
+     color: #fff;
+     box-shadow: 0 5px 11px 0 rgb(0 0 0 / 15%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    
+  
+     transition: all .3s ease-in-out;
+  
+
+}
+.career-option-btn button:hover::before{
+    transform: scale(1.1);
+
+
+}
+    
+.career-option-btn button{
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background: #26ae61;
+    position: relative;
+    z-index:-1;
+}
+.road-map{
+    padding-top: 50px;
+}
+.road-content h4{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #333;
+
+}
+.road-content p{
+    font-size: 14px;
+    color: #6b6969;
+    line-height: 26px;
+}
+
+.Indomitable h4{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.Indomitable p{
+    font-size: 14px;
+    color: #6b6969;
+    line-height: 26px;
+    text-align: center;
+    
+}
+
+.carousel-indicators  .active {
+    opacity: 1;
+    background:#00b37d;   
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+    border: 1px solid rgb(1, 107, 121);
+    background-clip: padding-box;
+    border-radius: 50%;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.app-section{
+    padding:60px 0px 60px 0px;
+    background: #f9fcff;
+    margin-top:70px;
+}
+.download-section{
+    padding: 50px 0px 0px 0px;
+}
+
+.download-section p{
+    padding:0px 20px 0px 20px;
+
+}
+.download-button .btn1 i{
+    float: left;
+    font-size: 30px;
+    color: #00b37d;
+}
+.download-button .btn2 i{
+    float: left;
+    font-size: 30px;
+    color: #ffffff;
+    margin:5px;
+}  
+.download-button .btn1{
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding:7px 17px 0px 7px;
+    text-transform: capitalize;
+    border: 2px solid #26ae61;
+    background:none;
+}
+.download-button .btn1 a{
+    text-decoration: none;
+    color:#26ae61;
+}
+
+.download-button  .btn1 p{
+    font-size: 13px;
+    
+    color: #26ae61;
+}
+.download-button .btn2{
+    
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding:7px 17px 0px 7px;
+ 
+    text-transform: capitalize;
+    border: 2px solid #26ae61;
+    background:#26ae61;
+margin-left: 10px;
+}
+.download-button .btn2 a{
+    color: white;
+    text-decoration: none;
+}
+.download-button .btn2 p{
+    color: white;
+    font-size: 13px;
+}
+.footer-content {
+    background-color: #24324a;
+    padding:60px 0px 0px 0px;
+    color: #8a99b3;
+  
+}
+.footer-item1 p{
+    font-size: 14px;
+    
+}
+.footer-item2 p a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #8a99b3;
+}
+.footer-item2 h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer-item3{
+    padding-top: 50px;
+}
+.footer-item3 p a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#8a99b3;
+}
+.footer-item4{
+    padding-top: 25px;
+}
+.footer-item4 h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer-item4 p{
+    font-size: 14px;
+
+
+}
+.footer-emailbox{
+    z-index: 1;
+}
+.footer-emailbox input{
+    border-radius: 30px;
+    background: 0 0;
+    color: #fff;
+    border: 1px solid #536688;
+    padding: 8px 15px;
+   
+}
+.footer-emailbox span{
+    background: #26ae61;
+    color: white;
+    border: navajowhite;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.footer-emailbox input:focus{
+    background: none;
+    outline: none;
+    border:none;
+}
+
+
+.social-icon i{
+    border-radius: 30px;
+    color: #fff;
+    height: 32px;
+    line-height: 35px;
+    text-align: center;
+    width: 32px;
+    font-size: 13px;
+    display: inline-block;
+    background-color: #26ae61;
+    margin-right:10px;
+   
+
+}
+.facebook{
+    background-color: #3b5998 !important;
+}
+.twitter{
+    background-color: #55acee !important;
+}
+.linkedin {
+    background-color: #007bb5 !important;
+}
+.googleplus{
+    background-color: #dd4b39 !important;
+}
+.Copyright p{
+    font-size: 15px;
+}
+.arrow{
+    position: fixed;
+    right: 20px;
+    bottom:5px;
+    display: none;
+   
+   
+    
+}
+.arrow i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+    background: #26ae61;
+    border-radius: 50%; 
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 30px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:#26ae61;
+    border-radius: 10px;
+  }
+  .login{
+    font-size: 14px;
+    background: #26ae61;
+    color: #fff;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 9px 21px;
+    border-radius: 10px;
+    margin-right: 13px;
+  }
+  .signup{
+    font-size: 14px;
+    background: #26ae61;
+    color: #fff;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 9px 21px;
+    border-radius: 10px;
+  }
+  .logo:hover{
+    transform: scale(1.1);
+  }
+  .logo h3:hover{
+    color: #26ae61;
+  }
+  .notepad i{
+    font-size: 45px;
+    color: #26ae61;
+  }
+  .notepad h6{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .notepad p{
+    font-size: 14px;
+    color: #6b6969;
+    line-height: 26px;
+   
+  }
+  .copyright-section{
+    background-color:#26ae61;
+  }
+  .carousel-inner{
+   background-color:#fff;
+    border-radius: 4px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 30px; 
+  }
+  .carousel-item img{
+    border-radius: 50%;
+  }
+  @media screen  and  (max-width:576px) 
+  {
+    .content1 h1{
+        
+        font-size: 22px;
+        margin: 0px;
+        line-height: 32px;
+    }
+  }
