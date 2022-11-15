@@ -92,7 +92,6 @@ padding: 0px;
     text-align: center;
     overflow: hidden;
     display: block;
-  
 }
 .logo a{
     text-decoration: none;
@@ -101,19 +100,14 @@ padding: 0px;
     font-size: 18px;
     color: #333;
     font-weight:500;
- 
 }
-
 .categories_card{
     padding-top: 70px;
 }
-
 .career_oppor{
     padding-bottom: 50px;
     padding-top: 150px;
 }
-
-
 .careersub{
     padding-top: 100px; 
  
@@ -134,7 +128,6 @@ padding: 0px;
     text-align: center;
 }
 .career-option-btn{
-   
     text-align: center;
 }
 .career-option-btn button::before{
@@ -143,24 +136,18 @@ padding: 0px;
     width: 90%;
     border-radius: 30px;
     height: 100%;
-     background: #fff;
-     transform: scale(0);
-     opacity: 0.3;
-     left: 10px;
-     top: 0px;
-     transition: all .3s ease-in-out;
-     color: #fff;
-     box-shadow: 0 5px 11px 0 rgb(0 0 0 / 15%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-    
-  
-     transition: all .3s ease-in-out;
-  
-
+    background: #fff;
+    transform: scale(0);
+    opacity: 0.3;
+    left: 10px;
+    top: 0px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 15%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    transition: all .3s ease-in-out;
 }
 .career-option-btn button:hover::before{
     transform: scale(1.1);
-
-
 }
     
 .career-option-btn button{
@@ -183,7 +170,6 @@ padding: 0px;
     margin-bottom: 0;
     font-weight: 700;
     color: #333;
-
 }
 .road-content p{
     font-size: 14px;
@@ -203,7 +189,6 @@ padding: 0px;
     color: #6b6969;
     line-height: 26px;
     text-align: center;
-    
 }
 
 .carousel-indicators  .active {
@@ -215,7 +200,6 @@ padding: 0px;
     flex: 0 1 auto;
     width: 15px;
     height: 15px;
-
     cursor: pointer;
     border: 1px solid rgb(1, 107, 121);
     background-clip: padding-box;
@@ -231,10 +215,8 @@ padding: 0px;
 .download-section{
     padding: 50px 0px 0px 0px;
 }
-
 .download-section p{
     padding:0px 20px 0px 20px;
-
 }
 .download-button .btn1 i{
     float: left;
@@ -265,22 +247,19 @@ padding: 0px;
 
 .download-button  .btn1 p{
     font-size: 13px;
-    
     color: #26ae61;
 }
 .download-button .btn2{
-    
     border-radius: 30px;
     width: 200px;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
     padding:7px 17px 0px 7px;
- 
     text-transform: capitalize;
     border: 2px solid #26ae61;
     background:#26ae61;
-margin-left: 10px;
+    margin-left: 10px;
 }
 .download-button .btn2 a{
     color: white;
@@ -297,8 +276,7 @@ margin-left: 10px;
   
 }
 .footer-item1 p{
-    font-size: 14px;
-    
+    font-size: 14px; 
 }
 .footer-item2 p a{
     font-size: 14px;
@@ -328,8 +306,6 @@ margin-left: 10px;
 }
 .footer-item4 p{
     font-size: 14px;
-
-
 }
 .footer-emailbox{
     z-index: 1;
@@ -339,8 +315,7 @@ margin-left: 10px;
     background: 0 0;
     color: #fff;
     border: 1px solid #536688;
-    padding: 8px 15px;
-   
+    padding: 8px 15px;  
 }
 .footer-emailbox span{
     background: #26ae61;
@@ -354,8 +329,6 @@ margin-left: 10px;
     outline: none;
     border:none;
 }
-
-
 .social-icon i{
     border-radius: 30px;
     color: #fff;
@@ -367,8 +340,6 @@ margin-left: 10px;
     display: inline-block;
     background-color: #26ae61;
     margin-right:10px;
-   
-
 }
 .facebook{
     background-color: #3b5998 !important;
@@ -389,10 +360,7 @@ margin-left: 10px;
     position: fixed;
     right: 20px;
     bottom:5px;
-    display: none;
-   
-   
-    
+    display: none;  
 }
 .arrow i{
     color: rgb(255, 255, 255);
@@ -405,11 +373,9 @@ margin-left: 10px;
     width: 10px;
     height: 30px; 
   }
-
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  
   ::-webkit-scrollbar-thumb {
     background:#26ae61;
     border-radius: 10px;
@@ -472,9 +438,8 @@ margin-left: 10px;
   @media screen  and  (max-width:576px) 
   {
     .content1 h1{
-        
-        font-size: 22px;
-        margin: 0px;
-        line-height: 32px;
+    font-size: 22px;
+    margin: 0px;
+    line-height: 32px;
     }
   }
