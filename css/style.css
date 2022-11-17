@@ -129,37 +129,15 @@ padding: 0px;
 }
 .career-option-btn{
     text-align: center;
-}
-.career-option-btn button::before{
-    content: '';
-    position: absolute;
-    width: 90%;
-    border-radius: 30px;
-    height: 100%;
-    background: #fff;
-    transform: scale(0);
-    opacity: 0.3;
-    left: 10px;
-    top: 0px;
-    transition: all .3s ease-in-out;
-    color: #fff;
-    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 15%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-    transition: all .3s ease-in-out;
-}
-.career-option-btn button:hover::before{
-    transform: scale(1.1);
-}
-    
+}  
 .career-option-btn button{
     font-size: 14px;
     padding: 10px 30px;
     border-radius: 30px;
-    letter-spacing: 1px;
     font-weight: 400;
     color: #fff;
     border: none;
     background: #26ae61;
-    position: relative;
     z-index:-1;
 }
 .road-map{
@@ -180,32 +158,23 @@ padding: 0px;
 .Indomitable h4{
     font-size: 36px;
     font-weight: 400;
-    margin-bottom: 30px;
-    text-align: center;
-    
+    margin-bottom: 30px; 
 }
 .Indomitable p{
     font-size: 14px;
     color: #6b6969;
-    line-height: 26px;
-    text-align: center;
+    line-height: 26px; 
 }
-
 .carousel-indicators  .active {
-    opacity: 1;
     background:#00b37d;   
 }
 .carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
     width: 15px;
     height: 15px;
     cursor: pointer;
     border: 1px solid rgb(1, 107, 121);
-    background-clip: padding-box;
     border-radius: 50%;
     opacity: .5;
-    transition: opacity .6s ease;
 }
 .app-section{
     padding:60px 0px 60px 0px;
@@ -262,18 +231,15 @@ padding: 0px;
     margin-left: 10px;
 }
 .download-button .btn2 a{
-    color: white;
     text-decoration: none;
 }
 .download-button .btn2 p{
-    color: white;
     font-size: 13px;
 }
 .footer-content {
     background-color: #24324a;
     padding:60px 0px 0px 0px;
     color: #8a99b3;
-  
 }
 .footer-item1 p{
     font-size: 14px; 
@@ -331,15 +297,12 @@ padding: 0px;
 }
 .social-icon i{
     border-radius: 30px;
-    color: #fff;
     height: 32px;
-    line-height: 35px;
-    text-align: center;
     width: 32px;
     font-size: 13px;
-    display: inline-block;
+    line-height:32px;
     background-color: #26ae61;
-    margin-right:10px;
+    margin-right:7px;
 }
 .facebook{
     background-color: #3b5998 !important;
@@ -383,11 +346,7 @@ padding: 0px;
   .login{
     font-size: 14px;
     background: #26ae61;
-    color: #fff;
     border: none;
-    text-align: center;
-    overflow: hidden;
-    text-transform: uppercase;
     padding: 9px 21px;
     border-radius: 10px;
     margin-right: 13px;
@@ -395,11 +354,7 @@ padding: 0px;
   .signup{
     font-size: 14px;
     background: #26ae61;
-    color: #fff;
     border: none;
-    text-align: center;
-    overflow: hidden;
-    text-transform: uppercase;
     padding: 9px 21px;
     border-radius: 10px;
   }
